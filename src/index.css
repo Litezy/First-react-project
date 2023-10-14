@@ -25,7 +25,7 @@ body {
   background: rgb(247, 246, 246);
 }
 .rotat{
-  /* animation: rotate 5s linear infinite ; */
+  animation: rotate 15s linear infinite ;
 }
 
 @keyframes rotate {

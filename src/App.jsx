@@ -3,6 +3,7 @@ import Headers from './components/Headers'
 import Banner from './components/Banner'
 import FirstSection from './components/FirstSection'
 import PlansSection from './components/PlansSection'
+import PopOut from './components/PopOut'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
     <Banner/>
     <FirstSection/>
     <PlansSection/>
+    <PopOut/>
     </div>
   )
 }

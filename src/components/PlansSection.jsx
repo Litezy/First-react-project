@@ -53,31 +53,27 @@ const PlansSection = () => {
                                 <SlEnvolope className='text-6xl text-white' />
                                 <div className="text-white text-2xl">{item.title}</div>
                             </div>
-                            {new Array(1).fill().map((date, nums) => (
-                                <div key={nums} className="grid grid-cols-2 py-4 px-4">
+                                <div className="grid grid-cols-2 py-4 px-4">
                                     <div className="text-semibold ">Amount</div>
                                     <div className="text-right">{item.amount}</div>
                                 </div>
-                            ))}
-                            {new Array(1).fill().map((data, nums) => (
-                                <div key={nums} className="grid grid-cols-2 py-4 px-4">
+                    
+                                <div  className="grid grid-cols-2 py-4 px-4">
                                     <div className="text-semibold ">Duration</div>
                                     <div className="text-right">{item.Duration}</div>
                                 </div>
-                            ))}
+                            
 
-                            {new Array(1).fill().map((date, nums) => (
-                                <div key={nums} className="grid grid-cols-2 py-4 px-4">
+                            
+                                <div className="grid grid-cols-2 py-4 px-4">
                                     <div className="text-semibold ">ROI</div>
                                     <div className="text-right">{item.roi}</div>
                                 </div>
-                            ))}
-                            {new Array(1).fill().map((date, nums) => (
-                                <div key={nums} className="grid grid-cols-2 py-4 px-4">
+                        
+                                <div className="grid grid-cols-2 py-4 px-4">
                                     <div className="text-semibold ">Incentives</div>
                                     <div className="text-right">{item.incentives}</div>
                                 </div>
-                            ))}
                             <div className="w-fit ml-auto px-10 pb-8 pt-3 ">
                                 <button className='bg-blue-600 text-white py-3 px-5 rounded-full capitalize shadow-xl hover:bg-orange-400 '>purchase now</button>
                             </div>

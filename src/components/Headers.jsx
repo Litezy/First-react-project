@@ -31,7 +31,7 @@ const Headers = () => {
     const Icon = view ? FaTimes : SlMenu
     return (
         <div className=' bg-slate-100 shadow-md relative z-10'>
-            <div className='flex items-center justify-between w-[90%] mx-auto py-2'>
+            <div className='flex items-center justify-between w-[90%] mx-auto py-2 md:py-0'>
                 <div className="flex items-center gap-1">
                     <img className="w-10 md:w-[4.5rem] " src={logo} alt="" />
                     <div className="font-semibold text-blue-600 text-sm md:text-xl lg:text-2xl italic ">melody <span className='text-orange-400'>trails</span></div>
